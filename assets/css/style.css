@@ -1,0 +1,207 @@
+:root {
+	--gren-gray-scale-900: #002603;
+	--gren-gray-scale-800: #173b1a;
+	--gren-gray-scale-700: #2b572e;
+	--gren-gray-scale-600: #406b42;
+	--gren-gray-scale-500: #618062;
+	--gren-gray-scale-400: #7a997c;
+	--gren-gray-scale-300: #96b297;
+	--gren-gray-scale-200: #b4ccb4;
+	--gren-gray-scale-100: #dae5da;
+	--gren-gray-scale-50: #edf2ee;
+	--gray-scale-gray-–-900: #1a1a1a;
+	--gray-scale-gray-–-800: #333;
+	--gray-scale-gray-–-700: #4d4d4d;
+	--gray-scale-gray-–-600: #666;
+	--gray-scale-gray-–-500: #808080;
+	--gray-scale-gray-–-400: #999;
+	--gray-scale-gray-–-300: #b3b3b3;
+	--gray-scale-gray-–-200: #ccc;
+	--gray-scale-gray-–-100: #e6e6e6;
+	--gray-scale-gray-–-50: #f2f2f2;
+	--gray-scale-white: #fff;
+	--branding-success-bright: #84d187;
+	--branding-success: #00b207;
+	--branding-success-dark: #2c742f;
+	--branding-warning: #ff8a00;
+	--branding-error: #ea4b48;
+    --font-family: "Poppins", sans-serif;
+    --second-family: "Dancing Script", sans-serif;
+}
+/* HEADER */
+header {
+    border-bottom: 1px solid #666;
+  }
+  .location_box span i {
+    color: var(--gray-scale-gray-600);
+    padding-right: 10px;
+  }
+  .location_box {
+    display: flex;
+    align-items: center;
+  }
+  .location_box p {
+    margin: auto;
+  }
+  .location_box p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    color: var(--gray-scale-gray-600);
+  }
+  .navigation_box ul {
+    margin: auto 0;
+    padding: 10px 0;
+  }
+  .navigation_box ul li a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    text-align: center;
+    color: var(--gray-scale-gray-600);
+  }
+  .navigation_box ul li {
+    padding-right: 15px;
+  }
+  /* HEADER END */
+  * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+  }
+
+  /* NAVBAR */
+  #navbar{
+    padding: 16px;
+  }
+  #navbar .search{
+
+  }
+  #navbar .search form{
+    width: 100%;
+    position: relative;
+  }
+  #navbar .search form input{
+    width: 100%;
+    border: 1px solid #808080;
+    border-right: none;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    padding: 12px 44px;
+  }
+  #navbar .search form button{
+    border: none;
+    background-color: #00b207;
+    color: #fff;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    padding: 12px 0;
+    width: 25%;
+  }
+  #navbar .search form .search_icon{
+    position: absolute;
+    left: 10px;
+    top: 12.5px;
+    display: inline-block;
+  }
+  #navbar .icons span{
+    padding: 0 8px;
+    display: inline-block;
+  }
+  #navbar .icons .one{
+      border-right: 1px solid #808080;
+      
+      
+  }
+  #navbar .icons .two p{
+    margin: 0 !important;
+
+  }
+  #navbar .icons .icon_parent{
+    position: relative;
+  }
+  #navbar .icons .two .count{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    font-size: 12px;
+    background-color: #00b207;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+   
+  }
+  #navbar .first{
+    font-size: 32px;
+    display: inline-block;
+  }
+
+  
+  /*NAVBAR END*/
+
+   /*NAVICATION MENU*/
+   .navigation_menu {
+    background: var(--gray-scale-gray-–-800);
+    padding: 15px 0;
+  }
+  .navigation_menu ul {
+    display: flex;
+    align-items: center;
+    margin: auto 0;
+  }
+  .navigation_menu ul li {
+    padding-left: 20px;
+  }
+  .navigation_menu ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--gray-scale-gray-–-400);
+  }
+  .navigation_menu ul li a:hover {
+    color: white;
+  }
+  .call span i {
+    font-size: 14px;
+    color: var(--gray-scale-white);
+  }
+ .call span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--gray-scale-white);
+    padding-left: 6px;
+  }
+   .Shopping_cart {
+    position: relative;
+  }
+  .number {
+    position: absolute;
+    background: var(--branding-success-dark);
+    border-radius: 16px;
+    width: 18px;
+    height: 18px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    top: -6px;
+    right: -6px;
+  }
+    /*NAVICATION MENU END*/
+
+    /*BANNER */
+
+    /*BANNER END*/
+
